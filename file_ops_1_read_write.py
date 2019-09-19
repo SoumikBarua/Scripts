@@ -8,7 +8,7 @@ def bitcoin_csv_prices(filename):
 
     # "r" is the flag for read-only operation, "w" is for writing
     input_file = open(filename, "r")
-    output_file = open("file_ops_output.txt", "w")
+    output_file = open("file_ops_1_output.txt", "w")
     output_file.write("YYYY-MM-DD HH:MM:SS (Time)   Bitcoin Prices\n")
 
     for line in input_file:
@@ -23,4 +23,4 @@ def bitcoin_csv_prices(filename):
     input_file.close()
     output_file.close()
 
-bitcoin_csv_prices("file_ops_input.csv")
+bitcoin_csv_prices("file_ops_1&2_input.csv")
