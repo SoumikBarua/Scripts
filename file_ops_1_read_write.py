@@ -23,4 +23,4 @@ def bitcoin_csv_prices(filename):
     input_file.close()
     output_file.close()
 
-bitcoin_csv_prices("file_ops_1&2_input.csv")
+bitcoin_csv_prices("file_ops_1&2&3_input.csv")

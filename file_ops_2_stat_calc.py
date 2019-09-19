@@ -61,4 +61,4 @@ def math_and_std_dev(file_name):
     print("Standard deviation of prices is {p:.2f}".format(p=standard_dev))
     print("Median price is ${p:.2f}".format(p=median))
 
-math_and_std_dev("file_ops_input.csv")
+math_and_std_dev("file_ops_1&2&3_input.csv")
