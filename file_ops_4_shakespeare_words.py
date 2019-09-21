@@ -1,5 +1,5 @@
 
-def word_occurences(file_name):
+def word_occurrences(file_name):
     """Parses a text file to return a dictionary with words in the file
     as keys and the word occurrences as values."""
 
@@ -53,4 +53,4 @@ def word_occurences(file_name):
     print("There are " + str(unique_words_counter) + " unique words!")
     return (dictionary)
             
-word_occurences("file_ops_4_input.txt")
+#word_occurrences("file_ops_4_input.txt")
