@@ -50,6 +50,8 @@ def word_occurrences(file_name):
             # e.g. "'t" would be counted as "it"
 
 
+    file.close()
+    
     print("There are " + str(unique_words_counter) + " unique words!")
     return (dictionary)
             
