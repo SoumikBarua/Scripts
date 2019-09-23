@@ -43,7 +43,7 @@ def password_checker(password):
             return False
 
     # Password should have the number of unique characters greater
-    # than or equal to its length
+    # than or equal to half its length
     unique_chars = set()
     for x in range(len(password)):
         unique_chars.add(password[x])
